@@ -1,0 +1,72 @@
+.profissional {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cor-fundo);
+}
+
+.profissional__imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.profissional__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profissional__imagem-projeto {
+    width: 85vw;
+    max-width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profissional__titulo-projeto {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: var(--fonte-texto);
+    padding-top: .1rem;
+    padding-bottom: .8rem;
+    text-align: center;
+}
+
+.profissional__paragrafo {
+    font-size: 1rem;
+    font-family: var(--fonte-texto);
+    padding-bottom: .8rem;
+    text-align: center;
+}
+
+.profissional__botoes {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 90vw;
+    max-width: 300px;
+    padding-bottom: 1rem;
+}
+
+.profissional__botao-repositorio {
+    color: var(--cor-botao);
+    color: #fff;
+    background-color: transparent;  
+}
+
+@media screen and (min-width: 768px) {
+    .profissional {
+        width: 100vw; 
+        align-items: center;
+        justify-content: center;
+    }
+    .profissional__titulo-projeto {
+        font-size: 1.4rem;
+        padding-top: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+}

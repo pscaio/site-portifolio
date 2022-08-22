@@ -1,0 +1,36 @@
+.formacao {
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: wrap;
+    background-color: var(--cor-fundo2);
+}
+
+.formacao__titulo {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.formacao__logo {
+    max-width: 150px;
+    padding-bottom: 1.2rem;
+    width: 40vw;
+    align-self: center;
+    
+}
+
+.formacao__formacao {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.formacao__texto {
+    font-family: var(--fonte-texto);
+    font-size: 0.9rem;
+    text-align: left;
+    padding-bottom: 0.8rem;
+    text-align: center;
+}

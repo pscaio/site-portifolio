@@ -1,0 +1,81 @@
+:root {
+    --fonte-titulo: 'Nunito', sans-serif; /*bold 600*/
+    --fonte-texto: 'Raleway', sans-serif; /*bold= 400*/
+    --cor-titulo: #FFFFFF;
+    --cor-texto: #ECEFF1;
+    --cor-botao: #2A7AE4;
+    --cor-fundo: #222222;
+    --cor-fundo2: #333333;
+
+}
+
+.container {
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto-titulo);
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--cor-titulo);
+
+    text-align: left;
+    font-family: var(--fonte-titulo);
+}
+
+.texto {
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+}
+
+.botao {
+    color: #fcfcfc;
+    background-color: var(--cor-botao);
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-botao);
+
+    width: 80px;
+    height: 30px;
+
+    font-size: 15px;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao:hover {
+    transition-duration: 0.3s;
+    transform: scale(0.9);
+}
+
+.icon-social {
+    width: 42px;
+    height: 42px;
+
+}
+
+.input-estilo {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: var(--fonte-texto);
+}
+
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 1.7rem;
+    }    
+}
