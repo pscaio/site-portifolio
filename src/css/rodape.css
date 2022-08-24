@@ -2,14 +2,13 @@
     display: flex;
     flex-direction: column ;
     align-items: center;
-    padding-top: .9rem;
-    padding-bottom: 2rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
     background: var(--cor-fundo);
 }
 
 .rodape__paragrafo {
     padding-bottom: .9rem;
-    padding-top: .7rem;
 }
 
 .rodape__social {
@@ -21,12 +20,12 @@
 .rodape__midia {
     display: block;
     width: 20px;
-    margin: .2rem 1rem;
+    margin: 5px 15px;
 }
 
 .rodape__midia:hover{
     transition-duration: 0.3s;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 @media screen and (min-width: 768px) {

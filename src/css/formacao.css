@@ -11,15 +11,14 @@
 
 .formacao__titulo {
     text-align: center;
-    padding-bottom: 1rem;
+    
 }
 
-.formacao__logo {
+.formacao__logo { 
     max-width: 150px;
-    padding-bottom: 1.2rem;
-    width: 40vw;
+    width: 40%;
+    padding-bottom: 1rem;
     align-self: center;
-    
 }
 
 .formacao__formacao {
